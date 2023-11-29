@@ -22,7 +22,6 @@ const (
 func TestConst() {
 	const length int = 10
 	fmt.Println("length = ", length)
-
 	fmt.Println("BEIJING=", BEIJING)
 	fmt.Println("SHANGHAI=", SHANGHAI)
 	fmt.Println("SHENZHEN=", SHENZHEN)

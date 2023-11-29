@@ -1,0 +1,5 @@
+package slicestudy
+
+func init() {
+
+}

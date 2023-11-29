@@ -28,7 +28,7 @@ func foo3(a string, b int) (r1 int, r2 int) {
 	return
 }
 
-func foo4(a string, b int) (r1, r2 int) {
+func Foo4(a string, b int) (r1, r2 int) {
 	fmt.Println("------foo4-----")
 	fmt.Println("a=", a)
 	fmt.Println("b=", b)
@@ -41,10 +41,10 @@ func foo4(a string, b int) (r1, r2 int) {
 
 func init() {
 	fmt.Println("test4_function.init()")
-	c := foo1("abc", 1)
+	/*c := foo1("abc", 1)
 	foo2("abc", 1)
 	foo3("abc", 1)
-	foo4("abc", 1)
-	fmt.Println("c=", c)
+	Foo4("abc", 1)
+	fmt.Println("c=", c)*/
 
 }
