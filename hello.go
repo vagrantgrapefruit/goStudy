@@ -1,10 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-func main(){
-	a:="hello"
-	b:="go"
-	fmt.Println(a,b)
+	"github.com/vagrantgrapefruit/goStudy/test3"
+)
+
+func main() {
+	a := "hello"
+	b := "go"
+	fmt.Println(a, b)
+	test3.TestConst()
 }
-
