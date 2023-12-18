@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	_ "github.com/vagrantgrapefruit/goStudy/mapStudy"
+	"github.com/vagrantgrapefruit/goStudy/classStudy"
 	// "_" means import but drop the value
 	// "." in import means the func import into this file
 	//_ "github.com/vagrantgrapefruit/goStudy/deferLearn"
@@ -11,6 +11,8 @@ import (
 	//_ "github.com/vagrantgrapefruit/goStudy/test3"
 	//_ "github.com/vagrantgrapefruit/goStudy/test4"
 	//_ "github.com/vagrantgrapefruit/goStudy/sliceStudy"
+	//_ "github.com/vagrantgrapefruit/goStudy/mapStudy"
+	//_ "github.com/vagrantgrapefruit/goStudy/structStudy"
 )
 
 func main() {
@@ -27,12 +29,16 @@ func main() {
 	//fmt.Println("a=", a)
 	sliceStudy.TestSlice()
 	sliceStudy.SliceAdd()
-	mapStudy.MapTest()*/
-	countProfit(1000, 10, 180000, 18, 28)
+	mapStudy.MapTest()
+	structStudy.StructStudy()*/
+	classStudy.ClassStudy()
 	fmt.Println("______END______")
+	countProfit(1000, 10, 180000, 18, 28)
 }
 
-func countProfit(monthin int, yearIn int, getMoney int, yearOutStart int, yearOutEnd int) {
+func countProfit(monthin int, yearIn int, getMoney int, yearOutStart int, yearOutEnd int) float64 {
 	var profit float64
+
 	println("Don`t finish")
+	return profit
 }
