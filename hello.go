@@ -30,8 +30,9 @@ func main() {
 	sliceStudy.TestSlice()
 	sliceStudy.SliceAdd()
 	mapStudy.MapTest()
-	structStudy.StructStudy()*/
-	classStudy.ClassStudy()
+	structStudy.StructStudy()
+	classStudy.ClassStudy()*/
+	classStudy.HumanTest()
 	fmt.Println("______END______")
 	countProfit(1000, 10, 180000, 18, 28)
 }
