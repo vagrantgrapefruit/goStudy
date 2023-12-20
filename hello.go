@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/vagrantgrapefruit/goStudy/classStudy"
+	"github.com/vagrantgrapefruit/goStudy/reflectStudy"
 	// "_" means import but drop the value
 	// "." in import means the func import into this file
 	//_ "github.com/vagrantgrapefruit/goStudy/deferLearn"
@@ -31,8 +31,10 @@ func main() {
 	sliceStudy.SliceAdd()
 	mapStudy.MapTest()
 	structStudy.StructStudy()
-	classStudy.ClassStudy()*/
-	classStudy.HumanTest()
+	classStudy.ClassStudy()
+	classStudy.HumanTest()*/
+	//reflectStudy.TagStudy()
+	reflectStudy.TagInJson()
 	fmt.Println("______END______")
 	countProfit(1000, 10, 180000, 18, 28)
 }
